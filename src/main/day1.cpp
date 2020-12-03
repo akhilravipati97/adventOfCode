@@ -36,14 +36,15 @@ void partOne(std::unordered_set<int>& numbers) {
 }
 
 int main() {
-    std::ifstream ifile("./input/day1.txt");
+    std::ifstream input_file("./input/day1.txt");
     std::unordered_set<int> numbers;
     int num;
-    while(ifile >> num) {
+    while(input_file >> num) {
         // std::cout << "Number is: " << num;
         numbers.insert(num);
     }
-    ifile.close();
+    // https://stackoverflow.com/questions/4802494/do-i-need-to-close-a-stdfstream
+    // input_file.close();
     partTwo(numbers);
 
 }
