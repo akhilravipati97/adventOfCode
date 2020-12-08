@@ -23,6 +23,7 @@ The idea is to attempt to:
 
 ## Updates
 
-- Start using testcases from day2.
+- day2 - Start using testcases.
+- day4 - Testcases save the day. 
 
 
