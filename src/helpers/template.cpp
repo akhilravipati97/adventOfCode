@@ -4,8 +4,9 @@
 #include <unordered_set>
 #include <vector>
 #include <cassert>
+#include <algorithm>
 
-int main() {
+void run() {
     std::ifstream ifile("./input/day1.txt");
     std::unordered_set<int> numbers;
     int num;
@@ -13,5 +14,13 @@ int main() {
         // std::cout << "Number is: " << num;
         numbers.insert(num);
     }
+}
+
+void test() {
+
+}
+
+int main() {
+    
 
 }
