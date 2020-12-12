@@ -7,15 +7,15 @@
 #include <vector>
 #include <cassert>
 #include <algorithm>
+#include "src/helpers/readInputFile.cpp"
 
-void run() {
-    std::ifstream ifile("./input/day1.txt");
-    std::unordered_set<int> numbers;
-    int num;
-    while(ifile >> num) {
-        // std::cout << "Number is: " << num;
-        numbers.insert(num);
-    }
+
+void run_part1(std::vector<std::string>& lines) {
+
+}
+
+void run_part2(std::vector<std::string>& lines) {
+
 }
 
 void test() {
@@ -24,5 +24,7 @@ void test() {
 
 int main() {
     test();
-    run();
+    std::vector<std::string> lines = read_file("8");
+    run_part1(lines);
+    run_part2(lines);
 }
