@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 #include <unordered_set>
+#include <unordered_map>
+#include <numeric>
 #include <vector>
 #include <cassert>
 #include <algorithm>
@@ -21,6 +23,6 @@ void test() {
 }
 
 int main() {
-    
-
+    test();
+    run();
 }
