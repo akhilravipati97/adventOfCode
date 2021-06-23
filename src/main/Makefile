@@ -6,7 +6,7 @@ CXXFLAGS = -g -Wall -std=c++17 -I ../../
 
 LDLIBS = -lstdc++fs
 
-executable = day10
+executable = day11
 
 $(executable):
 
