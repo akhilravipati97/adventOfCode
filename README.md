@@ -1,15 +1,12 @@
-# Advent of Code 2020
+# Advent of Code
 
-<p>I think Advent of Code is a great way to learn a new language and brush up on algorithms.</p>
-<p>I plan to re-learn C++ and this repo is a placeholder for all my solutions.</p>
+I think Advent of Code is a great way to learn a new language and brush up on algorithms.
 
-<br />
-
----
+With Advent of Code 2020, I tried to learn C++. Unfortunately, I didn't keep up with all the problems and stopped quite early. Same goes for 2021, I simply didn't have time to participate in 2021. However, I'll try to bring it in this time around in 2022, and I'm going to be trying C++ again. 
 
 <br />
 
-The idea is to attempt to:
+# Outlook
 
 1. Solve each day's problem, first by myself, with no bar on code quality and algorithmic complexity. Just to learn the language and to hack a working solution.
 2. Then, improve the algorithmic complexity. I'll probably be taking help & confirming my thought process from others and online forums (annotating the fact whenever I do that).
@@ -17,13 +14,4 @@ The idea is to attempt to:
 
 <br />
 
----
-
-<br />
-
-## Updates
-
-- day2 - Start using testcases.
-- day4 - Testcases save the day. 
-- day7 - Need to revisit to re-learn pair and hashing
 

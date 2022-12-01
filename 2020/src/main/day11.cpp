@@ -97,11 +97,14 @@ long long run_part2(std::vector<std::string>& grid) {
 }
 
 void test() {
+    int x = 5;
+    int* y = &x;
+    std::cout << "test: " << std::to_string(y) << std::endl;
 }
 
 int main() {
     test();
-    std::vector<std::string> lines = read_file("11");
-    std::cout << "test2: " << run_part2(lines);
+    // std::vector<std::string> lines = read_file("11");
+    // std::cout << "test2: " << run_part2(lines);
     return 0;
 }
