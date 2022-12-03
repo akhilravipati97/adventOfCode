@@ -7,7 +7,7 @@
 #include <vector>
 #include <cassert>
 #include <algorithm>
-#include "src/helpers/readInputFile.cpp"
+#include "../helpers/readInputFile.cpp"
 
 
 void run_part1(std::vector<std::string>& lines) {
