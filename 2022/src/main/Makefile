@@ -12,9 +12,8 @@ build:
 	fi
 	$(CXX) -o day$(day).exe day$(day).cpp $(CXXFLAGS)
 
-.PHONY: all clean
-all: clean $(executable)
+.PHONY: clean build
 clean:
-	rm -f *.o *~ a.out core $(executable) $(executable).exe
+	rm -f *.exe
 
 
