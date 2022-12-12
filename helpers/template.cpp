@@ -11,11 +11,11 @@
 
 
 int run_part1(std::vector<std::string>& lines) {
-
+    return 0;
 }
 
 int run_part2(std::vector<std::string>& lines) {
-
+    return 0;
 }
 
 void test() {
@@ -24,7 +24,7 @@ void test() {
 
 int main() {
     test();
-    std::vector<std::string> lines = read_file("8");
+    std::vector<std::string> lines = read_file("2022", "<DAY>");
     std::cout << "ans part 1: " << run_part1(lines) << std::endl;
     std::cout << "ans part 2: " << run_part2(lines) << std::endl;
 }
