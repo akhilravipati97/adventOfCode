@@ -19,7 +19,15 @@ int run_part2(std::vector<std::string>& lines) {
 }
 
 void test() {
+    std::vector<std::string> lines = {};
+    int val = run_part1(lines);
+    std::cout << "test part 1 val: " << val << std::endl;
+    assert(val == 0);
 
+    lines = {};
+    val = run_part2(lines);
+    std::cout << "test part 2 val: " << val << std::endl;
+    assert(val == 0);
 }
 
 int main() {
