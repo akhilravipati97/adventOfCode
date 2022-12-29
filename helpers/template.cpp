@@ -33,6 +33,8 @@ void test() {
 int main() {
     test();
     std::vector<std::string> lines = read_file("2022", "<DAY>");
-    std::cout << "ans part 1: " << run_part1(lines) << std::endl;
-    std::cout << "ans part 2: " << run_part2(lines) << std::endl;
+    int val = run_part1(lines);
+    std::cout << "ans part 1: " << val << std::endl;
+    val = run_part2(lines);
+    std::cout << "ans part 2: " << val << std::endl;
 }
